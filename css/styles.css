@@ -1093,6 +1093,10 @@ body {
     padding: 10px;
   }
 
+  .pie-menu ul {
+    font-size: 12px;
+  }
+
   .titulo-faq h1 {
     font-size: 24px;
     text-align: center;
@@ -1111,6 +1115,10 @@ body {
   .footer {
     padding: 15px;
     text-align: center;
+  }
+
+  .pie-menu ul {
+    font-size: 13px;
   }
 
   .titulo-faq h1 {
