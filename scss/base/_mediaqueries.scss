@@ -1,0 +1,718 @@
+/* MEDIAQUERIES */
+
+/* MEDIAQUERIES INDEX */
+@media (max-width: 480px) {
+    .banner {
+      height: 70vh;
+      background-attachment: scroll;
+    }
+  
+    .contenido-banner h1 {
+      font-size: 40px;
+    }
+  
+    .contenido-banner p {
+      font-size: 16px;
+    }
+  
+    .top-categorias h2 {
+      font-size: 60px;
+      font-weight: 500;
+    }
+  
+    .categorias-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .categoria {
+      width: 80%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .container-informacion {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .sobrenosotros {
+      flex-direction: column;
+      margin: 10px;
+    }
+  
+    .imagen-sobrenosotros img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .texto-sobrenosotros {
+      margin: 20px 0;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .banner {
+      height: 80vh;
+    }
+  
+    .contenido-banner h1 {
+      font-size: 50px;
+    }
+  
+    .top-categorias h2 {
+      font-size: 70px;
+      font-weight: 500;
+    }
+  
+    .categorias-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .categoria {
+      width: 90%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .container-informacion {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  
+    .sobrenosotros {
+      flex-direction: column;
+      margin: 20px;
+    }
+  
+    .imagen-sobrenosotros img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .texto-sobrenosotros {
+      margin: 20px 0;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .banner {
+      height: 70vh;
+    }
+  
+    .contenido-banner h1 {
+      font-size: 60px;
+    }
+  
+    .categorias-container {
+      flex-direction: column;
+      gap: 5px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .categoria {
+      width: 60%;
+      height: auto;
+    }
+  
+    .container-informacion {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 40px;
+    }
+  
+    .sobrenosotros {
+      flex-direction: row;
+      margin: 20px;
+    }
+  
+    .imagen-sobrenosotros img {
+      display: none;
+    }
+  
+    .texto-sobrenosotros {
+      margin: 20px 50px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .banner {
+      height: 75vh;
+    }
+  
+    .contenido-banner h1 {
+      font-size: 65px;
+    }
+  
+    .categorias-container {
+      justify-content: space-between;
+    }
+  
+    .categoria {
+      width: 30%;
+      height: auto;
+    }
+  
+    .container-informacion {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+  
+    .sobrenosotros {
+      flex-direction: row;
+      margin: 20px;
+    }
+  
+    .imagen-sobrenosotros img {
+     display: none;
+    }
+  
+    .texto-sobrenosotros {
+      margin: 20px 50px;
+    }
+  }
+  
+  @media (min-width: 1601px) {
+    .banner {
+      height: 80vh;
+    }
+  
+    .contenido-banner h1 {
+      font-size: 80px;
+    }
+  
+    .categoria {
+      width: 400px;
+      height: 400px;
+    }
+  
+    .container-informacion {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+    }
+  }
+  
+  /* MEDIAQUERIES PRODUCTOS */
+  @media (max-width: 480px) {
+    .titulo-productos h1 {
+      font-size: 30px;
+      margin: 60px 0 15px;
+    }
+  
+    .productos-container {
+      width: 200px;
+      grid-template-columns: repeat(2,1fr);
+      margin: 20px 20px;
+    }
+  
+    .productos-card {
+      margin: 10px 0;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .titulo-productos h1 {
+      font-size: 35px;
+      margin: 70px 0 20px;
+    }
+  
+    .productos-container {
+      width: 300px;
+      grid-template-columns: repeat(2,1fr);
+      gap: 10px;
+      margin: 0 20px;
+    }
+  
+    .productos-card {
+      margin: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .titulo-productos h1 {
+      font-size: 40px;
+      margin: 75px 0 20px;
+    }
+  
+    .productos-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      max-width: 800px;
+    }
+  
+    .productos-card {
+      margin: 15px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .titulo-productos h1 {
+      font-size: 45px;
+      margin: 80px 0 20px;
+    }
+  
+    .productos-container {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1000px;
+    }
+  
+    .productos-card {
+      margin: 20px;
+    }
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    .titulo-productos h1 {
+      font-size: 50px;
+    }
+  
+    .productos-container {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1000px;
+    }
+  
+    .productos-card {
+      margin: 20px;
+    }
+  }
+  
+  @media (min-width: 1601px) {
+    .titulo-productos h1 {
+      font-size: 55px;
+    }
+  
+    .productos-container {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      max-width: 1200px;
+    }
+  
+    .productos-card {
+      margin: 25px;
+    }
+  }
+  
+  /* MEDIAQUERIES SOBREMI */
+  @media (max-width: 480px) {
+    .titulo-sobremi h2 {
+      font-size: 30px;
+      margin: 60px 0 15px;
+    }
+  
+    .sobremi-texto p {
+      margin: 15px 20px;
+      font-size: 12px;
+    }
+  
+    .sobremi-imagenes {
+      width: 100%;
+      grid-template-columns: 1fr;
+      margin: 20px auto;
+    }
+  
+    .sobremi-imagenes img {
+      width: 100%;
+    }
+  
+    .contacto-container {
+      padding: 20px;
+    }
+  
+    .contacto-formulario input,
+    .contacto-formulario textarea {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .contacto-formulario button {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .titulo-sobremi h2 {
+      font-size: 35px;
+      margin: 70px 0 20px;
+    }
+  
+    .sobremi-texto p {
+      margin: 15px 40px;
+      font-size: 13px;
+    }
+  
+    .sobremi-imagenes {
+      width: 80%;
+      grid-template-columns: 1fr 1fr;
+      margin: 30px auto;
+    }
+  
+    .sobremi-imagenes img {
+      width: 100%;
+    }
+  
+    .contacto-container {
+      padding: 30px;
+    }
+  
+    .contacto-formulario input,
+    .contacto-formulario textarea {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  
+    .contacto-formulario button {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .titulo-sobremi h2 {
+      font-size: 40px;
+      margin: 75px 0 20px;
+    }
+  
+    .sobremi-texto p {
+      margin: 15px 100px;
+      font-size: 14px;
+    }
+  
+    .sobremi-imagenes {
+      width: 70%;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 40px auto;
+    }
+  
+    .sobremi-imagenes img {
+      width: 100%;
+    }
+  
+    .contacto-container {
+      padding: 40px;
+    }
+  
+    .contacto-formulario input,
+    .contacto-formulario textarea {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .contacto-formulario button {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .titulo-sobremi h2 {
+      font-size: 45px;
+      margin: 80px 0 20px;
+    }
+  
+    .sobremi-texto p {
+      margin: 15px 150px;
+      font-size: 14px;
+    }
+  
+    .sobremi-imagenes {
+      width: 60%;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 40px auto;
+    }
+  
+    .sobremi-imagenes img {
+      width: 100%;
+    }
+  
+    .contacto-container {
+      padding: 50px;
+    }
+  
+    .contacto-formulario input,
+    .contacto-formulario textarea {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .contacto-formulario button {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    .titulo-sobremi h2 {
+      font-size: 50px;
+    }
+  
+    .sobremi-texto p {
+      margin: 15px 200px;
+      font-size: 14px;
+    }
+  
+    .sobremi-imagenes {
+      width: 50%;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 40px auto;
+    }
+  
+    .sobremi-imagenes img {
+      width: 100%;
+    }
+  
+    .contacto-container {
+      padding: 60px;
+    }
+  
+    .contacto-formulario input,
+    .contacto-formulario textarea {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .contacto-formulario button {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 1601px) {
+    .titulo-sobremi h2 {
+      font-size: 55px;
+    }
+  
+    .sobremi-texto p {
+      margin: 15px 300px;
+      font-size: 15px;
+    }
+  
+    .sobremi-imagenes {
+      width: 40%;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 50px auto;
+    }
+  
+    .sobremi-imagenes img {
+      width: 100%;
+    }
+  
+    .contacto-container {
+      padding: 70px;
+    }
+  
+    .contacto-formulario input,
+    .contacto-formulario textarea {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .contacto-formulario button {
+      width: 100%;
+    }
+  }
+  
+  /* MEDIAQUERIES FAQ */
+  @media (max-width: 480px) {
+    .footer {
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .titulo-faq h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    .accordion-item .accordion-header button {
+      font-size: 16px;
+    }
+  
+    .accordion-body p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .footer {
+      padding: 15px;
+      text-align: center;
+    }
+  
+    .titulo-faq h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .accordion-item .accordion-header button {
+      font-size: 18px;
+    }
+  
+    .accordion-body p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .titulo-faq h1 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .accordion-item .accordion-header button {
+      font-size: 20px;
+    }
+  
+    .accordion-body p {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .footer {
+      padding: 25px;
+      text-align: center;
+    }
+  
+    .titulo-faq h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .accordion-item .accordion-header button {
+      font-size: 22px;
+    }
+  
+    .accordion-body p {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    .footer {
+      padding: 30px;
+      text-align: center;
+    }
+  
+    .titulo-faq h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .accordion-item .accordion-header button {
+      font-size: 24px;
+    }
+  
+    .accordion-body p {
+      font-size: 22px;
+    }
+  }
+  
+  @media (min-width: 1601px) {
+    .footer {
+      padding: 35px;
+      text-align: center;
+    }
+  
+    .titulo-faq h1 {
+      font-size: 44px;
+      text-align: center;
+    }
+  
+    .accordion-item .accordion-header button {
+      font-size: 26px;
+    }
+  
+    .accordion-body p {
+      font-size: 24px;
+    }
+  }
+  
+  /* MEDIAQUERIES CONTACTO */
+  @media (max-width: 480px) {
+    .titulo-contacto {
+      margin-top: 100px;
+    }
+  
+    .titulo-contacto h1 {
+      font-size: 30px;
+    }
+  
+    .contacto-formulario {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    .titulo-contacto {
+      margin-top: 90px;
+    }
+  
+    .titulo-contacto h1 {
+      font-size: 35px;
+    }
+  
+    .contacto-formulario {
+      width: 85%;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .titulo-contacto {
+      margin-top: 80px;
+    }
+  
+    .titulo-contacto h1 {
+      font-size: 40px;
+    }
+  
+    .contacto-formulario {
+      width: 75%;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1200px) {
+    .titulo-contacto {
+      margin-top: 70px;
+    }
+  
+    .titulo-contacto h1 {
+      font-size: 45px;
+    }
+  
+    .contacto-formulario {
+      width: 70%;
+    }
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1600px) {
+    .titulo-contacto {
+      margin-top: 60px;
+    }
+  
+    .titulo-contacto h1 {
+      font-size: 50px;
+    }
+  
+    .contacto-formulario {
+      width: 60%;
+    }
+  }
+  
+  @media (min-width: 1601px) {
+    .titulo-contacto {
+      margin-top: 50px;
+    }
+  
+    .titulo-contacto h1 {
+      font-size: 55px;
+    }
+  
+    .contacto-formulario {
+      width: 50%;
+    }
+  }
