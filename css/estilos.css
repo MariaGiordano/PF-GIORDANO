@@ -644,7 +644,7 @@ body {
   }
   .productos-container {
     width: 200px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 20px 20px;
   }
   .productos-card {
@@ -658,7 +658,7 @@ body {
   }
   .productos-container {
     width: 300px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 10px;
     margin: 0 20px;
   }
